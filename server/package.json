@@ -1,0 +1,22 @@
+{
+    "name": "vendez_les_votre",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "create-react-app": "^1.2.1",
+        "express": "^4.16.2",
+        "jwt-simple": "^0.5.1",
+        "mongoose": "^5.13.14",
+        "morgan": "^1.10.0",
+        "password-hash": "^1.2.2",
+        "pug": "^3.0.2",
+        "readline": "^1.3.0",
+        "tar": "^6.1.11"
+    }
+}

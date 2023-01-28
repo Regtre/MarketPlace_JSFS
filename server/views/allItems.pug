@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title.toLowerCase()}
+  table#itemlist
+    each item in items
+      tr.item(data-id= item._id)
+        td.name=item.name
+        td.author=item.author
+        td.price=item.price + " €"
+        td.description=item.description
+        td.id_owner=item.id_owner + " id"
+        td.sell=item.sell

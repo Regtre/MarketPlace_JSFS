@@ -1,0 +1,18 @@
+{
+    "name": "Velo",
+    "author": "Paul",
+    "description": "Velo sympa",
+    "price": 50
+}
+{
+    "name": "Stylo",
+    "author": "Remy",
+    "description": "Stylo vraiment pas fou",
+    "price": 20
+}
+{
+    "name": "Peigne",
+    "author": "Paul",
+    "description": "Peigne assez sale, etant donnée que je me lave trés peu",
+    "price": 5
+}

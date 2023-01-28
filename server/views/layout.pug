@@ -1,0 +1,13 @@
+doctype html
+
+mixin createCover(imgSrc)
+  .cover
+    img(src=imgSrc)
+
+html
+  head
+    block headblock
+      title= title
+      link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content

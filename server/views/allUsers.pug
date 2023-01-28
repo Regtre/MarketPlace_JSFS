@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title.toLowerCase()}
+  table#userlist
+    each user in users
+      tr.user(data-id= user._id)
+        td.pseudo=user.pseudo
+        td.password=user.password
+        td.money=user.money

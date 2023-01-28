@@ -1,0 +1,19 @@
+show dbs
+use booksBase
+db
+db.books.find()
+db.books.insertOne({title : 'The Lord of the Ring', author : 'JRRT', year : 1954})
+db.books.find()
+show dbs
+show collections
+db.books.insertOne({ title : 'Dune',  author : 'Herbert Frank', year : 1965 })
+db.books.find()
+db.books.find({year : 1954})
+db.books.insertOne({ title : 'Bilbo',  author : 'Jrrt', year : 1954 })
+db.books.updateMany({ title : 'Bilbo'}, { $set : {author : 'JRRT', year : 1937} })
+db.books.find({author : 'JRRT'})
+db.books.updateMany({ author : 'JRRT'}, { $set : { author : 'JRR Tolkien'} })
+db.books.updateMany({ title : 'Bilbo'}, { $set : { type : 'fantasy'} })
+db.books.find({author : 'JRR Tolkien'})
+db.books.deleteOne({author : 'Herbert Frank'})
+db.books.deleteMany({author : 'JRR Tolkien'})
